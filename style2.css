@@ -33,24 +33,16 @@ html {
     height: 100%;
     background-image: url('path-to-circuit-pattern.svg');
     opacity: 0.1;
-    animation: move-pattern 20s linear infinite;
-}
-
-@keyframes move-pattern {
-    0% { background-position: 0 0; }
-    100% { background-position: 100% 100%; }
 }
 
 .hero-content h1 {
     font-size: 3rem;
     color: white;
-    animation: fadeIn 2s ease-in-out;
 }
 
 .hero-content p {
     color: #00C853;
     font-size: 1.5rem;
-    animation: fadeIn 2s ease-in-out 1s;
 }
 
 .cta-button {
@@ -182,7 +174,7 @@ html {
     transition: color 0.3s ease-in-out;
 }
 
-.contact-info-box a: hover {
+.contact-info-box a:hover {
     color: #00A642;
 }
 
