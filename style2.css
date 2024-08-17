@@ -88,6 +88,32 @@ html {
     font-size: 1.2rem;
 }
 
+/* Certifications and Courses Boxes */
+.certifications-box, .courses-box {
+    background-color: #3C3C3C;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certifications-box h2, .courses-box h2 {
+    font-size: 2rem;
+    color: #00C853;
+    margin-bottom: 15px;
+}
+
+.certifications-box ul, .courses-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certifications-box li, .courses-box li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
 /* Contact Section */
 .contact-section {
     padding: 50px 0;
@@ -145,16 +171,6 @@ html {
     margin-top: 30px;
 }
 
-nav a {
-    margin-right: 20px; /* Adjust this value to control the spacing */
-    text-decoration: none;
-    padding: 10px; /* Optional padding for better spacing within the link */
-}
-
-nav a:last-child {
-    margin-right: 0; /* Ensures no extra space after the last link */
-}
-
 .contact-info-box p {
     margin: 15px 0;
     font-size: 1.2rem;
@@ -168,33 +184,14 @@ nav a:last-child {
 
 .contact-info-box a:hover {
     color: #00A642;
-    text-decoration: underline;
 }
 
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    .hero-content h1 {
-        font-size: 2rem;
-    }
+nav a {
+    margin-right: 20px; /* Adjust this value to control the spacing */
+    text-decoration: none;
+    padding: 10px; /* Optional padding for better spacing within the link */
+}
 
-    .hero-content p {
-        font-size: 1.2rem;
-    }
-
-    .cta-button {
-        font-size: 1rem;
-        padding: 8px 16px;
-    }
-
-    .about-section h2 {
-        font-size: 2rem;
-    }
-
-    .about-section p {
-        font-size: 1rem;
-    }
-
-    .contact-info-box {
-        font-size: 1rem;
-    }
+nav a:last-child {
+    margin-right: 0; /* Ensures no extra space after the last link */
 }
