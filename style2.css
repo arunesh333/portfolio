@@ -189,8 +189,31 @@ nav a {
     margin-right: 20px; /* Adjust this value to control the spacing */
     text-decoration: none;
     padding: 10px; /* Optional padding for better spacing within the link */
+
+    
 }
 
 nav a:last-child {
     margin-right: 0; /* Ensures no extra space after the last link */
+}
+
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+    .hero-section {
+        background-image: url("darker_image_mob.png"); /* Mobile-specific background image */
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+
+/* Desktops and Larger Screens */
+@media (min-width: 901px) {
+    .hero-section {
+        background-image: url("darker_image.png"); /* Desktop-specific background image */
+        background-size: cover;
+        background-position: center;
+    }
 }
