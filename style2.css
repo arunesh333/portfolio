@@ -198,22 +198,4 @@ nav a:last-child {
 }
 
 
-/* Mobile Devices */
-@media (max-width: 390px) {
-    .hero-section {
-        background-image: url("darker_image_mob.png"); /* Mobile-specific background image */
-        background-size: cover;
-        background-position: center;
-    }
-}
 
-
-
-/* Desktops and Larger Screens */
-@media (min-width: 1280px) {
-    .hero-section {
-        background-image: url("darker_image.png"); /* Desktop-specific background image */
-        background-size: cover;
-        background-position: center;
-    }
-}
