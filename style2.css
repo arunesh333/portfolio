@@ -199,7 +199,7 @@ nav a:last-child {
 
 
 /* Mobile Devices */
-@media (max-width: 720px) {
+@media (max-width: 420px) {
     .hero-section {
         background-image: url("darker_image_mob.png"); /* Mobile-specific background image */
         background-size: cover;
