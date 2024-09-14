@@ -15,7 +15,7 @@ body {
     padding: 20px;
     font-family: 'Arial', sans-serif; 
     width: 375px;
-	height: 100%;
+    min-height: 100vh;
     background-image: linear-gradient(to right top, #6188f8, #6890f9, #7099f9, #79a1f9, #82a9f9, #80b5fb, #83c0fc, #8acafc, #94d8fa, #a7e5f8, #bff1f7, #d9fbf9);	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 	overflow: hidden;
 	display: flex;
@@ -27,11 +27,10 @@ body {
 .heading {
     text-align: center; 
     margin-bottom: 40px; 
-	width: 365px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	background-color: rgba(255, 255, 255, 0.377);
-	border-radius: 5px;
+	width: 100%;
+	
+	background-color: rgba(0, 204, 255, 0.377);
+	border-radius: 0;
 }
 
 .heading h1 {
@@ -55,28 +54,35 @@ body {
 .stg h2 {
     font-size: 25px; 
     color: #333;
+    text-align: center;
     margin-top: 0;
     margin-bottom: 5px;
  }
 
-.stg p {
+ .stg p {
     font-size: 15px; 
     margin-top: 0;
+    text-align: center;
     color: #777; 
 }
 
-.stg h4, .stg h5 {
+.stg h4 {
+    font-size: 18px; 
+    color: #555; 
+    margin-top: 10px; 
+    margin-bottom: 0;
+}
+.stg h5 {
     font-size: 20px; 
     color: #555; 
     margin-top: 10px; 
     margin-bottom: 0;
 }
 
-
 .mark {
-    margin-top: 20px; /* Space above the mark section */
-    display: flex; /* Flexbox for alignment */
-    align-items: center; /* Center items vertically */
+    margin-top: 20px; 
+    display: flex; 
+    align-items: center; 
 
     
     position: relative;
@@ -123,45 +129,11 @@ body {
     padding-bottom: 4px;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 18px;
-	color: #666;
+	font-size: 15px;
+	color: #000000;
+}
+details summary {
+    list-style: none;
+    cursor: pointer; 
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-    .heading h1 {
-        font-size: 2.5rem; /* Smaller font size for smaller screens */
-    }
-
-    .stg h2 {
-        font-size: 1.8rem; /* Smaller font size for class */
-    }
-
-    .stg p, .stg h4, .stg h5 {
-        font-size: 1rem; /* Smaller font size for additional text */
-    }
-}
-
-@media (max-width: 480px) {
-    .heading h1 {
-        font-size: 2rem; /* Further reduction in font size */
-    }
-
-    .stg h2 {
-        font-size: 1.6rem; /* Further reduction in class font size */
-    }
-
-    .stg p, .stg h4, .stg h5 {
-        font-size: 0.9rem; /* Further reduction in additional text font size */
-    }
-
-    .mark {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: flex-start; /* Align items to the left */
-    }
-
-    .percentage {
-        margin-left: 0; /* Remove margin for percentage */
-        margin-top: 5px; /* Space above percentage */
-    }
-}
