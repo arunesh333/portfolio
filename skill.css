@@ -24,6 +24,7 @@ body {
     text-align: center; 
     margin-bottom: 40px; 
     width: 365px;
+    font-size: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: rgba(221, 221, 221, 0.45); 
@@ -46,7 +47,7 @@ li{
     font-variant: inherit;
 }
 .head h1 {
-    font-size: 40px;
+    font-size: 30px;
     color: lavenderblush;
     text-align: center;
 	margin: 0;
@@ -63,7 +64,7 @@ li{
     margin-bottom: 15px;
 }
 .show1 summary, .show2 summary{
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
     margin-bottom: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -81,7 +82,7 @@ details summary {
     cursor: pointer; 
 }
 .show1 p , .show2 p{
-    font-size: 15px; 
+    font-size: 12px; 
     margin-top: 0;
     text-align: center;
     color: #777; 
